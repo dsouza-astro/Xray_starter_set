@@ -2,7 +2,7 @@
 
 from astropy import constants as const
 
-wavelength= input("please enter the value in Amstrongs: ")
+wavelength= float(input("please enter the value in Amstrongs: "))
 wavelength= wavelength/10**10
 freq= (3e+8)/wavelength
 print("The frequency is: ", freq)
