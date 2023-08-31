@@ -3,8 +3,8 @@
 from astropy import constants as const
 
 wavelength= input("please enter the value in Amstrongs: ")
-
-freq= (const.c*10**10)/wavelength
+wavelength= wavelength *10**-10
+freq= (const.c)/wavelength
 print("The frequency is: ", freq)
 
 joule_energy = 6.625E+34 *freq
