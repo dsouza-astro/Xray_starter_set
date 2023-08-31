@@ -4,7 +4,7 @@ from astropy import constants as const
 
 wavelength= input("please enter the value in Amstrongs: ")
 wavelength= wavelength *10**-10
-freq= (const.c)/wavelength
+freq= (3e+8)/wavelength
 print("The frequency is: ", freq)
 
 joule_energy = 6.625e+34 *freq
